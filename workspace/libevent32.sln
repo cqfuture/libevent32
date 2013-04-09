@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libevent32", "..\src\libevent32\libevent32.vcproj", "{D0B61440-227F-4875-92DC-8ECCC18FD62F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libevent32_test", "..\src\libevent32_test\libevent32_test.vcproj", "{2065F738-5060-43C9-9A03-82B4672FD427}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0B61440-227F-4875-92DC-8ECCC18FD62F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0B61440-227F-4875-92DC-8ECCC18FD62F}.Debug|Win32.Build.0 = Debug|Win32
+		{D0B61440-227F-4875-92DC-8ECCC18FD62F}.Release|Win32.ActiveCfg = Release|Win32
+		{D0B61440-227F-4875-92DC-8ECCC18FD62F}.Release|Win32.Build.0 = Release|Win32
+		{2065F738-5060-43C9-9A03-82B4672FD427}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2065F738-5060-43C9-9A03-82B4672FD427}.Debug|Win32.Build.0 = Debug|Win32
+		{2065F738-5060-43C9-9A03-82B4672FD427}.Release|Win32.ActiveCfg = Release|Win32
+		{2065F738-5060-43C9-9A03-82B4672FD427}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
