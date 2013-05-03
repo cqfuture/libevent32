@@ -30,6 +30,7 @@ void generic_handler(struct evhttp_request *req, void *arg )
 	evhttp_send_reply(req, HTTP_OK, "OK", buf);
 }
 
+#if 0
 int main(int argc, char *argv[])
 {
 	struct evhttp *httpd;
@@ -61,4 +62,22 @@ int main(int argc, char *argv[])
 	WSACleanup();
 
 	return 0;
+}
+#endif
+
+void time_cb(int fd, short event, void *argc)
+{
+    printf("timer wakeup \n");
+}
+
+int main()
+{
+    struct event   evt;
+    struct timeval tv;
+    struct event_base *base = event_init();
+    tv.tv_sec  = 10;
+    tv.tv_usec = 0;
+    evtimer_set(&evt, time_cb, NULL);
+    event_add(&evt, &tv);
+    event_dispatch(base);
 }
