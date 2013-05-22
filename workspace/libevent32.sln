@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libevent32", "..\src\libevent32\libevent32.vcproj", "{D0B61440-227F-4875-92DC-8ECCC18FD62F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libevent32_test", "..\src\libevent32_test\libevent32_test.vcproj", "{2065F738-5060-43C9-9A03-82B4672FD427}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "http_test", "..\src\http_test\http_test.vcproj", "{511366CC-F4D8-42FC-B418-E50843CBD63A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,10 @@ Global
 		{D0B61440-227F-4875-92DC-8ECCC18FD62F}.Debug|Win32.Build.0 = Debug|Win32
 		{D0B61440-227F-4875-92DC-8ECCC18FD62F}.Release|Win32.ActiveCfg = Release|Win32
 		{D0B61440-227F-4875-92DC-8ECCC18FD62F}.Release|Win32.Build.0 = Release|Win32
-		{2065F738-5060-43C9-9A03-82B4672FD427}.Debug|Win32.ActiveCfg = Debug|Win32
-		{2065F738-5060-43C9-9A03-82B4672FD427}.Debug|Win32.Build.0 = Debug|Win32
-		{2065F738-5060-43C9-9A03-82B4672FD427}.Release|Win32.ActiveCfg = Release|Win32
-		{2065F738-5060-43C9-9A03-82B4672FD427}.Release|Win32.Build.0 = Release|Win32
+		{511366CC-F4D8-42FC-B418-E50843CBD63A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{511366CC-F4D8-42FC-B418-E50843CBD63A}.Debug|Win32.Build.0 = Debug|Win32
+		{511366CC-F4D8-42FC-B418-E50843CBD63A}.Release|Win32.ActiveCfg = Release|Win32
+		{511366CC-F4D8-42FC-B418-E50843CBD63A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

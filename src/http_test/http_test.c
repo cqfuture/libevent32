@@ -5,6 +5,8 @@
 #include "event.h"
 #include "evhttp.h"
 
+#pragma comment(lib, "Ws2_32.lib")
+
 void root_handler(struct evhttp_request *req, void *arg)
 {
 	struct evbuffer *buf = evbuffer_new();

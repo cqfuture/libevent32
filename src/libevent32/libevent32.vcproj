@@ -81,8 +81,8 @@
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
-			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
-			IntermediateDirectory="$(ConfigurationName)"
+			OutputDirectory="..\..\build\$(ConfigurationName)"
+			IntermediateDirectory="$(OutDir)"
 			ConfigurationType="4"
 			CharacterSet="1"
 			WholeProgramOptimization="1"
@@ -124,6 +124,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
+				OutputFile="..\..\bin\$(ProjectName).lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -162,6 +163,10 @@
 			</File>
 			<File
 				RelativePath=".\include\evrpc.h"
+				>
+			</File>
+			<File
+				RelativePath=".\evthread-internal.h"
 				>
 			</File>
 			<File

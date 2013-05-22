@@ -184,7 +184,7 @@
 extern "C" {
 #endif
 
-#include <event2/event-config.h>
+#include "event2/event-config.h"
 #ifdef EVENT__HAVE_SYS_TYPES_H
 #include <sys/types.h>
 #endif
