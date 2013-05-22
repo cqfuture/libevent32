@@ -26,7 +26,7 @@
 #ifndef UTIL_INTERNAL_H_INCLUDED_
 #define UTIL_INTERNAL_H_INCLUDED_
 
-#include "event2/event-config.h"
+#include "event-config.h"
 #include "evconfig-private.h"
 
 #include <errno.h>

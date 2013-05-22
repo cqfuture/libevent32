@@ -37,7 +37,7 @@
  * SUCH DAMAGE.
  */
 
-#include "event2/event-config.h"
+#include "event-config.h"
 #include "evconfig-private.h"
 
 #ifdef _WIN32
@@ -52,7 +52,7 @@
 #include <stdarg.h>
 #include <string.h>
 #include <errno.h>
-#include "event2/event.h"
+#include "event2/event2.h"
 #include "event2/util.h"
 
 #include "log-internal.h"

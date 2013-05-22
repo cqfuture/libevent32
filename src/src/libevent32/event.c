@@ -24,7 +24,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#include "event2/event-config.h"
+#include "event-config.h"
 #include "evconfig-private.h"
 
 #ifdef _WIN32
@@ -53,7 +53,7 @@
 #include <time.h>
 #include <limits.h>
 
-#include "event2/event.h"
+#include "event2/event2.h"
 #include "event2/event_struct.h"
 #include "event2/event_compat.h"
 #include "event-internal.h"

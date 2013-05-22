@@ -25,7 +25,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "event2/event-config.h"
+#include "event-config.h"
 #include "evconfig-private.h"
 
 #ifdef EVENT__HAVE_SYS_PARAM_H
@@ -89,7 +89,7 @@
 
 #include "strlcpy-internal.h"
 #include "event2/http.h"
-#include "event2/event.h"
+#include "event2/event2.h"
 #include "event2/buffer.h"
 #include "event2/bufferevent.h"
 #include "event2/http_struct.h"

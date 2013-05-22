@@ -24,7 +24,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "event2/event-config.h"
+#include "event-config.h"
 #include "evconfig-private.h"
 
 #ifndef EVENT__DISABLE_THREAD_SUPPORT

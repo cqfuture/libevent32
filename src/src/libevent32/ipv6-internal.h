@@ -30,7 +30,7 @@
 #ifndef IPV6_INTERNAL_H_INCLUDED_
 #define IPV6_INTERNAL_H_INCLUDED_
 
-#include "event2/event-config.h"
+#include "event-config.h"
 #include "evconfig-private.h"
 
 #include <sys/types.h>

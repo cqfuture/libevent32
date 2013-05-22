@@ -26,7 +26,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "event2/event-config.h"
+#include "event-config.h"
 #include "evconfig-private.h"
 
 #ifdef EVENT__HAVE_SYS_TIME_H
@@ -55,7 +55,7 @@
 #include "event2/bufferevent.h"
 #include "event2/buffer.h"
 #include "event2/bufferevent_struct.h"
-#include "event2/event.h"
+#include "event2/event2.h"
 #include "event2/util.h"
 #include "event-internal.h"
 #include "log-internal.h"

@@ -27,7 +27,7 @@
 #ifndef TIME_INTERNAL_H_INCLUDED_
 #define TIME_INTERNAL_H_INCLUDED_
 
-#include "event2/event-config.h"
+#include "event-config.h"
 #include "evconfig-private.h"
 
 #ifdef EVENT__HAVE_MACH_MACH_TIME_H

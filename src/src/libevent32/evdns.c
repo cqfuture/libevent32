@@ -48,7 +48,7 @@
  * Version: 0.1b
  */
 
-#include "event2/event-config.h"
+#include "event-config.h"
 #include "evconfig-private.h"
 
 #include <sys/types.h>
@@ -88,7 +88,7 @@
 #include "event2/dns_struct.h"
 #include "event2/dns_compat.h"
 #include "event2/util.h"
-#include "event2/event.h"
+#include "event2/event2.h"
 #include "event2/event_struct.h"
 #include "event2/thread.h"
 

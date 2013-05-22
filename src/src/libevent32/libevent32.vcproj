@@ -285,6 +285,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\bufferevent-internal.h"
+				>
+			</File>
+			<File
 				RelativePath=".\bufferevent.c"
 				>
 			</File>
@@ -305,7 +309,31 @@
 				>
 			</File>
 			<File
+				RelativePath=".\changelist-internal.h"
+				>
+			</File>
+			<File
+				RelativePath=".\defer-internal.h"
+				>
+			</File>
+			<File
+				RelativePath=".\evbuffer-internal.h"
+				>
+			</File>
+			<File
+				RelativePath=".\evdns.h"
+				>
+			</File>
+			<File
+				RelativePath=".\event-internal.h"
+				>
+			</File>
+			<File
 				RelativePath=".\event.c"
+				>
+			</File>
+			<File
+				RelativePath=".\event.h"
 				>
 			</File>
 			<File
@@ -313,7 +341,27 @@
 				>
 			</File>
 			<File
+				RelativePath=".\evhttp.h"
+				>
+			</File>
+			<File
+				RelativePath=".\evmap-internal.h"
+				>
+			</File>
+			<File
 				RelativePath=".\evmap.c"
+				>
+			</File>
+			<File
+				RelativePath=".\evrpc-internal.h"
+				>
+			</File>
+			<File
+				RelativePath=".\evrpc.h"
+				>
+			</File>
+			<File
+				RelativePath=".\evsignal-internal.h"
 				>
 			</File>
 			<File
@@ -325,6 +373,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\evutil.h"
+				>
+			</File>
+			<File
 				RelativePath=".\evutil_rand.c"
 				>
 			</File>
@@ -333,7 +385,31 @@
 				>
 			</File>
 			<File
+				RelativePath=".\ht-internal.h"
+				>
+			</File>
+			<File
+				RelativePath=".\http-internal.h"
+				>
+			</File>
+			<File
+				RelativePath=".\iocp-internal.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ipv6-internal.h"
+				>
+			</File>
+			<File
+				RelativePath=".\kqueue-internal.h"
+				>
+			</File>
+			<File
 				RelativePath=".\listener.c"
+				>
+			</File>
+			<File
+				RelativePath=".\log-internal.h"
 				>
 			</File>
 			<File
@@ -341,11 +417,35 @@
 				>
 			</File>
 			<File
+				RelativePath=".\minheap-internal.h"
+				>
+			</File>
+			<File
+				RelativePath=".\mm-internal.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ratelim-internal.h"
+				>
+			</File>
+			<File
 				RelativePath=".\signal.c"
 				>
 			</File>
 			<File
+				RelativePath=".\strlcpy-internal.h"
+				>
+			</File>
+			<File
 				RelativePath=".\strlcpy.c"
+				>
+			</File>
+			<File
+				RelativePath=".\time-internal.h"
+				>
+			</File>
+			<File
+				RelativePath=".\util-internal.h"
 				>
 			</File>
 			<Filter

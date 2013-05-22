@@ -76,7 +76,7 @@
 extern "C" {
 #endif
 
-#include <event2/event-config.h>
+#include "event-config.h"
 #include <stdarg.h>
 #ifdef EVENT__HAVE_SYS_TYPES_H
 #include <sys/types.h>
@@ -90,7 +90,7 @@ extern "C" {
    An evbuffer is an opaque data type for efficiently buffering data to be
    sent or received on the network.
 
-   @see event2/event.h for more information
+   @see event2/event2.h for more information
 */
 struct evbuffer
 #ifdef EVENT_IN_DOXYGEN_

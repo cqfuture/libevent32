@@ -31,7 +31,7 @@
 extern "C" {
 #endif
 
-#include <event2/event.h>
+#include <event2/event2.h>
 
 struct sockaddr;
 struct evconnlistener;

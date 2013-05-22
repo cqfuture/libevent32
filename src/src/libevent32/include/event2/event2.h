@@ -54,7 +54,7 @@
 
   @section usage Standard usage
 
-  Every program that uses Libevent must inclurde the <event2/event2.h>
+  Every program that uses Libevent must inclurde the <event2/event.h>
   header, and pass the -levent flag to the linker.  (You can instead link
   -levent_core if you only want the main event and buffered IO-based code,
   and don't want to link any protocol code.)
@@ -152,7 +152,7 @@
   To browse the complete documentation of the libevent API, click on any of
   the following links.
 
-  event2/event2.h
+  event2/event.h
   The primary libevent header
 
   event2/thread.h
@@ -175,7 +175,7 @@
 
  */
 
-/** @file event2/event2.h
+/** @file event2/event.h
 
   Core functions for waiting for and receiving events, and using event bases.
 */

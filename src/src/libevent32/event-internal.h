@@ -31,7 +31,7 @@
 extern "C" {
 #endif
 
-#include "event2/event-config.h"
+#include "event-config.h"
 #include "evconfig-private.h"
 
 #include <time.h>

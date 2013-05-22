@@ -25,7 +25,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "event2/event-config.h"
+#include "event-config.h"
 #include "evconfig-private.h"
 
 #ifdef EVENT__HAVE_SYS_TYPES_H
@@ -61,7 +61,7 @@
 #endif
 #include <limits.h>
 
-#include "event2/event.h"
+#include "event2/event2.h"
 #include "event2/tag.h"
 #include "event2/buffer.h"
 #include "log-internal.h"

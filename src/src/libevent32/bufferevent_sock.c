@@ -26,7 +26,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "event2/event-config.h"
+#include "event-config.h"
 #include "evconfig-private.h"
 
 #include <sys/types.h>
@@ -66,7 +66,7 @@
 #include "event2/buffer.h"
 #include "event2/bufferevent_struct.h"
 #include "event2/bufferevent_compat.h"
-#include "event2/event.h"
+#include "event2/event2.h"
 #include "log-internal.h"
 #include "mm-internal.h"
 #include "bufferevent-internal.h"

@@ -24,7 +24,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "event2/event-config.h"
+#include "event-config.h"
 #include "evconfig-private.h"
 
 #include <sys/types.h>
@@ -51,7 +51,7 @@
 
 #include "event2/listener.h"
 #include "event2/util.h"
-#include "event2/event.h"
+#include "event2/event2.h"
 #include "event2/event_struct.h"
 #include "mm-internal.h"
 #include "util-internal.h"

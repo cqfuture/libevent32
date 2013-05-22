@@ -25,7 +25,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "event2/event-config.h"
+#include "event-config.h"
 #include "evconfig-private.h"
 
 #ifdef _WIN32
@@ -82,7 +82,7 @@
 #endif
 #include <limits.h>
 
-#include "event2/event.h"
+#include "event2/event2.h"
 #include "event2/buffer.h"
 #include "event2/buffer_compat.h"
 #include "event2/bufferevent.h"
